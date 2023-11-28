@@ -21,7 +21,7 @@ This is a warehouse for ONE-PEACE model, can be used to train your image dataset
 
 ## Precautions
 Before you use the code to train your own data set, please first enter the ___train_gpu.py___ file and modify the ___data_root___, ___batch_size___ and ___nb_classes___ parameters. If you want to draw the confusion matrix and ROC curve, you only need to remove the comments of ___Plot_ROC___ and ___Predictor___ at the end of the code. For the third parameter, you should change it to the path of your own model weights file(.pth).
-Moreover, the entire model structure is very enormous. Taking the smallest model(___one_piece_g_256___) as an example, inputting a 3-channel image with a height and width of 256, the number of model parameters that need to be trained is as follows
+Moreover, the entire model structure is very enormous. Taking the smallest model(___one_piece_g_256___) as an example, inputting a 3-channel image with a height and width of 256, the number of model parameters that need to be trained is as follows:
 ```
 ====================================================================================================
 Total params: 1,514,579,813
